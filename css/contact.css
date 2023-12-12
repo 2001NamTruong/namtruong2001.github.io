@@ -1,0 +1,31 @@
+/*===== contact css =====*/
+
+/*** Contact ***/
+.contact {
+    display: flex;
+    justify-content: center;
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.contact__container {
+    display: inline-block;
+    width: 500px;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid #005592;
+    border-radius: 10px;
+}
+
+.contact__item {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 85, 146, .15);
+    margin: 5px auto;
+    padding: 10px 5px;
+}
+
+.contact__item img {
+    margin: 0 10px;
+}
