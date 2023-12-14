@@ -28,7 +28,7 @@
 
 .sticky-header .sticky-header__menu {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
 }
 
 .sticky-header .sticky-header__menu a {
@@ -57,8 +57,10 @@ body {
 .page {
     background: rgba(255,255,255,.75);
     box-shadow: 0 0 6px -3px #000000;
-    margin: auto 150px;
-    padding: 100px 50px;
+    width: 80%;
+    margin: auto;
+    padding: 100px 100px;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4 {
@@ -92,9 +94,10 @@ h1, h2, h3, h4 {
 .footer__list {
     display: grid;
     position: relative;
-    padding: 50px;
+    padding: 50px 150px;
     grid-template-columns: 2fr 1fr auto;
     column-gap: 30px;
+    justify-content: center;
 }
 
 .footer__list1-header, .footer__list2-header, .footer__list3-header {
