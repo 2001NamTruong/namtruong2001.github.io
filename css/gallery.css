@@ -63,8 +63,9 @@
 }
 
 .gallery-module__card > img {
+    background-color: rgba(255,255,255,.75);
     width: auto;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
     height: 250px;
 }
