@@ -1,17 +1,5 @@
 /* ===== project css ===== */
 
-/*** notice middle ***/
-.notice {
-    text-align: center;
-    position: relative;
-    margin: 40px auto 60px;
-    max-width: 600px;
-}
-
-.notice__text {
-    font-family: Rubik, Arial, Helvetica, sans-serif;
-}
-
 /*** project ***/
 .project {
     margin: 40px auto;

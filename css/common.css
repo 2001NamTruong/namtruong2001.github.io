@@ -46,6 +46,7 @@
     transition: all ease .3s;
 }
 
+
 /*** Content body ***/
 body {
     background: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url("https://namtruong-2001.github.io/portfolio/image/page-background.jpg");
@@ -80,6 +81,19 @@ h1, h2, h3, h4 {
     display: inline;
     background: linear-gradient(to top,rgba(0, 85, 146, .15) 40%, rgb(255,255,255,.0) 30%, rgba(255,255,255,.0) 100%);
 }
+
+/*** notice middle ***/
+.notice {
+    text-align: center;
+    position: relative;
+    margin: 40px auto 60px;
+    max-width: 600px;
+}
+
+.notice__text {
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+}
+
 
 /*** Footer navigation ***/
 .footer__container {

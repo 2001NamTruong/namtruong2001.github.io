@@ -13,3 +13,5 @@
     - Add new image files
     - Create folder js, create common.js
     - Modify index.html
+    - Create header.html, footer.html
+    - Modify common.js and most other html and css files to use header.html footer.html component

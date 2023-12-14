@@ -18,7 +18,7 @@
     font-size: 20px;
     color: white;
     padding: 5px 15px;
-    width: 200px;
+    width: 250px;
 }
 
 .resume-module__container {
@@ -56,6 +56,113 @@
 }
 /*** Resume module - END ***/
 
+
+/*** Personal information - START ***/
+.personal__container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-areas: 
+        "personal-image personal-info"
+        "personal-name personal-info";
+    margin: 10px 0 50px;
+    grid-template-columns: 200px auto;
+    position: relative;
+}
+
+.personal__image {
+    grid-area: personal-image;
+    background: #005592;
+    padding: 20px;
+}
+
+.personal__image > img {
+    overflow: hidden;
+    display: block;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    margin-right: 12px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.personal__name {
+    grid-area: personal-name;
+    background: #005592;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: white
+}
+
+.personal__info {
+    grid-area: personal-info;
+    background: #dbf0f8;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0 0 15px;
+    row-gap: 10px;
+    font-size: 18px;
+}
+
+.personal__info-gender::before {
+    content: '';
+    display: inline-table;
+    background-image: url("https://namtruong-2001.github.io/portfolio/image/gender-icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.personal__info-birth::before {
+    content: '';
+    display: inline-table;
+    background-image: url("https://namtruong-2001.github.io/portfolio/image/birth-calendar.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.personal__info-phone::before {
+    content: '';
+    display: inline-table;
+    background-image: url("https://namtruong-2001.github.io/portfolio/image/phone.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.personal__info-email::before {
+    content: '';
+    display: inline-table;
+    background-image: url("https://namtruong-2001.github.io/portfolio/image/email.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.personal__info-location::before {
+    content: '';
+    display: inline-table;
+    background-image: url("https://namtruong-2001.github.io/portfolio/image/location.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+/*** Personal information - END ***/
+
+
+/*** Experience ***/
 .experience, .education {
     margin-bottom: 30px;
 }
@@ -67,7 +174,7 @@
     font-size: 20px;
     color: white;
     padding: 5px 15px;
-    width: 200px;
+    width: 250px;
 }
 
 .experience__container, .education__container {
@@ -82,11 +189,19 @@
     margin-top: 10px;
 }
 
-.experience__table > img, .education__table > img {
+.experience__table > img {
     overflow: hidden;
     display: block;
     width: auto;
     height: 50px;
+}
+
+.education__table > div > img {
+    overflow: hidden;
+    display: block;
+    width: auto;
+    height: 50px;
+    padding-bottom: 5px;
 }
 
 .experience__row, .education__row {
@@ -111,6 +226,8 @@
     color: gray;
 }
 
+
+/*** Education ***/
 .education__gpa {
     font-size: 14px;
 }
