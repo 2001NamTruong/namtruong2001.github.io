@@ -9,6 +9,6 @@ $(function(){
 /* Show window textbox when there is no downloadable file after clicking the button */
 $(document).ready(function() {
     $('.download-cv').click(function() {
-        alert('Oops! There is no downloadable file here!');
+        alert('You are about to go to my CV folder. Click OK to continue.');
     });
 });
