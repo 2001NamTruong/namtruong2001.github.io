@@ -6,7 +6,10 @@
     - Upload all files into reposity
 
 - 14 December 2023
+    - Update README.md
     - Create gallery.html, gallery.css
     - Modify other html files
     - Modify common.css, contact.css
     - Add new image files
+    - Create folder js, create common.js
+    - Modify index.html
