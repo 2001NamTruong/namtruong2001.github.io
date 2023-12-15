@@ -15,3 +15,7 @@
     - Modify index.html
     - Create header.html, footer.html
     - Modify common.js and most other html and css files to use header.html footer.html component
+
+- 15 December 2023
+    - Update README.md
+    - Modify gallery.html, gallery.css
