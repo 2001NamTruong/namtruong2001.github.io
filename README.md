@@ -19,3 +19,7 @@
 - 15 December 2023
     - Update README.md
     - Modify gallery.html, gallery.css
+
+- 9 December 2023
+    - Update README.md
+    - Modify index.html, footer.htmk, project.html, project.css
