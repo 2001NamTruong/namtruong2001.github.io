@@ -20,6 +20,11 @@
     - Update README.md
     - Modify gallery.html, gallery.css
 
-- 9 December 2023
+- 9 January 2024
     - Update README.md
     - Modify index.html, footer.htmk, project.html, project.css
+
+- 11 January 2024
+    - Update README.md
+    - Modify gallery.html, gallery.css
+    - Add image in "image" folder
