@@ -28,7 +28,7 @@
 }
 
 .gallery-module__card:hover {
-    background: rgba(0, 85, 146, .2);
+    background: rgba(0, 85, 146, .25);
 }
 
 .gallery-module__title {
