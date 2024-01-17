@@ -49,7 +49,7 @@
 
 /*** Content body ***/
 body {
-    background: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url("https://namtruong-2001.github.io/portfolio/image/page-background.jpg");
+    background: linear-gradient(rgba(255, 255, 255, .50), rgba(255, 255, 255, .50), rgba(255, 255, 255, .50)), url("https://namtruong-2001.github.io/portfolio/image/page-background.jpg");
     background-size: cover;
     background-attachment: fixed;
 }

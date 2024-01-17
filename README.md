@@ -31,5 +31,6 @@
 
 - 17 January 2024
     - Update README.md
-    - Modify gallery.html
+    - Modify gallery.html, common.css
     - Add image in "image" folder
+    - Update page-background.jpg
