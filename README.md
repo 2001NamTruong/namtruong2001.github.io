@@ -28,3 +28,8 @@
     - Update README.md
     - Modify gallery.html, gallery.css
     - Add image in "image" folder
+
+- 17 January 2024
+    - Update README.md
+    - Modify gallery.html
+    - Add image in "image" folder
