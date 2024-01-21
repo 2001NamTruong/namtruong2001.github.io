@@ -143,7 +143,7 @@ h1, h2, h3, h4 {
 
 .footer__list3 > .footer__list3-overview {
     display: grid;
-    row-gap: 5px;
+    row-gap: 10px;
 }
 
 .footer__list3-overview {
