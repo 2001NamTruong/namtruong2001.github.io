@@ -152,6 +152,7 @@ h1, h2, h3, h4 {
 
 .footer__list3-overview > a {
     text-decoration: none;
+    color: black;
 }
 
 .footer__list3-overview > a:visited {
