@@ -109,16 +109,20 @@ h1, h2, h3, h4 {
     display: grid;
     position: relative;
     padding: 50px 150px;
-    grid-template-columns: 2fr 1fr auto;
+    grid-template-columns: 2fr 2fr 1fr auto;
     column-gap: 30px;
     justify-content: center;
 }
 
-.footer__list1-header, .footer__list2-header, .footer__list3-header {
+.footer__list1-header, .footer__list2-header, .footer__list3-header, .footer__list4-header {
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     font-family: Rubik, Arial, Helvetica, sans-serif;
+}
+
+.footer__list1, .footer__list2, .footer__list3, .footer__list4 {
+    font-size: 13px;
 }
 
 .footer__list1 > .footer__list1-body {
@@ -137,21 +141,38 @@ h1, h2, h3, h4 {
     font-family: Rubik, Arial, Helvetica, sans-serif;
 }
 
-.footer__list3-body {
+.footer__list3 > .footer__list3-overview {
+    display: grid;
+    row-gap: 5px;
+}
+
+.footer__list3-overview {
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+}
+
+.footer__list3-overview > a {
+    text-decoration: none;
+}
+
+.footer__list3-overview > a:visited {
+    color: black;
+}
+
+.footer__list4-body {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 5px;
     box-sizing: border-box;
 }
 
-.footer__list3-card {
+.footer__list4-card {
     background: rgba(0,0,0,.2);
     width: 60px;
     height: 60px;
     font-family: Rubik, Arial, Helvetica, sans-serif;
 }
 
-.footer__list3-card > img {
+.footer__list4-card > img {
     overflow: hidden;
     width: 60px;
     height: 60px;
